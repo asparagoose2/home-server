@@ -1,0 +1,3 @@
+config/homeassistant/*
+config/plex/*
+config/transmission/*
