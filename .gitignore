@@ -1,3 +1,5 @@
-config/homeassistant/*
-config/plex/*
-config/transmission/*
+config/homeassistant
+config/plex
+config/transmission/config/*
+media
+!config/transmission/config/settings.json
