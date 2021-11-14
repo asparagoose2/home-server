@@ -1,5 +1,6 @@
 config/homeassistant
 config/plex
 config/transmission/config/*
+config/.deleted
 media
 !config/transmission/config/settings.json
