@@ -1,5 +1,10 @@
 # home-server
 
+### setup + run 
+```
+sudo apt update && sudo apt install git docker docker-compose avahi-daemon && git clone https://github.com/asparagoose2/home-server.git && cd home-server && sudo docker-compose pull && sudo docker-compose up -d && echo "Done! containers will restart on reboot"
+```
+
 ## Installation
 Install `docker` and `docker-compose`
 
