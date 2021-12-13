@@ -3,6 +3,8 @@
 ## Installation
 Install `docker` and `docker-compose`
 
+Optionally install `avahi-daemon` to publish the new host on the local domain
+
 ## Usage
 Run: `sudo docker-compose up`
 
