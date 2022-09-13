@@ -22,8 +22,7 @@ services:
     volumes:
       - ./config/homeassistant:/config
       - /etc/localtime:/etc/localtime:ro
-    ports:
-      - ${HASS_PORT}:8123
+    network_mode: host
     restart: unless-stopped
     privileged: true
 
